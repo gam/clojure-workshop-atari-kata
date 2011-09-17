@@ -1,0 +1,4 @@
+# Atari kata in Clojure
+
+Clojure implementation of the Atari kata presented by Keith Braithwaite.
+Performed by Andreas Jakobsen and Geir Amdal at Brian Marick's Clojure workshop in Oslo in September 2011.
