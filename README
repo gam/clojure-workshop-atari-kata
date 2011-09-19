@@ -1,4 +1,15 @@
 # Atari kata in Clojure
 
-Clojure implementation of the Atari kata presented by Keith Braithwaite.
+Clojure implementation of the Atari kata (more or less as presented by Keith Braithwaite in the 'TDD as if you meant it' worktorial at the Software Craftsmanship 2009 conference).
+See Gojko Adzic's writeup about the original worktorial for a description of the kata format:
+http://gojko.net/2009/02/27/thought-provoking-tdd-exercise-at-the-software-craftsmanship-conference/
+
+## Kata description
+
+The exercise involves writing a piece of code to evaluate whether 
+a stone in the Go game is 'in Atari', i.e. whether it can be taken. 
+The definition of whether a stone can be taken was given as it 
+having only one ‘liberty’, with liberties defined as free horizontal
+or vertical places adjacent to the stone. 
+
 Performed by Andreas Jakobsen and Geir Amdal at Brian Marick's Clojure workshop in Oslo in September 2011.
